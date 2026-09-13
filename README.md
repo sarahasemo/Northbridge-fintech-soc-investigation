@@ -1,51 +1,63 @@
-# Northbridge-fintech-soc-investigation
-SOC investigation project analysing suspicious activities using Wazuh, pfSense, Wireshark, Nmap, Hydra and Ubuntu
-# Northbridge Fintech – SOC Investigation Project
+# Northbridge Fintech – SOC Investigation & Cybersecurity Portfolio
 
-## Overview
-This project simulates a real-world Security Operations Center (SOC) investigation
-conducted to assess and improve the security posture of a fintech environment.
+A hands-on cybersecurity portfolio repository demonstrating SOC investigation, SIEM analysis, threat intelligence, phishing forensics, network security and incident response skills.
 
-The engagement focused on identifying suspicious activities, validating alerts,
-and recommending remediation actions using industry-standard tools.
+## Projects
 
-## Objective
-- Investigate network anomalies
-- Identify insecure services and attack vectors
-- Detect malicious activity using SIEM
-- Recommend remediation and long-term improvements
+### 1. Northbridge Fintech SOC Investigation
+A controlled lab investigation of suspicious network activity in a simulated fintech environment.
 
-## Environment
-- Target: Ubuntu Server (192.168.1.101)
-- Attacker: Kali Linux (192.168.1.102)
-- Tools: Wazuh (SIEM), pfSense (Firewall/IDS), Wireshark, Nmap, Hydra, Nikto, Snort
+**Tools:** Wazuh, pfSense, Wireshark, Nmap, Hydra, Nikto, Snort, Ubuntu
 
-## Methodology
-1. Network reconnaissance and port scanning
-2. Attack simulation (FTP, SSH, HTTP)
-3. Network traffic capture and analysis
-4. SIEM alert correlation and threat hunting
-5. Risk assessment and remediation planning
+**Focus:** network reconnaissance, attack simulation, traffic analysis, SIEM correlation, threat hunting, risk assessment and remediation.
 
-## Key Findings
-- FTP (Port 21) exposed credentials in plaintext
-- SSH (Port 22) vulnerable to brute force and privilege escalation
-- ARP storm detected via Wireshark
-- Medium overall risk score due to insecure services
+### 2. Phishing Campaign Forensic Investigation
+A simulated healthcare phishing investigation using multi-source log correlation and threat intelligence.
 
-## Tools Used
-- Nmap
-- Hydra
-- Ubuntu
-- Wireshark
-- pfSense
-- Wazuh SIEM
+**Tools:** Splunk Enterprise, VirusTotal, AbuseIPDB, AlienVault OTX
 
-## Outcome
-Critical security gaps were identified and remediation steps proposed to
-reduce the organization’s risk posture and prevent unauthorized access.
+**Focus:** phishing investigation, SIEM log analysis, IOC enrichment, email authentication analysis, timeline reconstruction, risk assessment and incident response.
+
+[Read the full phishing forensic investigation](reports/phishing-forensic-investigation.md)
+
+### 3. Threat Intelligence & OSINT Assessment
+An external attack-surface assessment using OSINT and reconnaissance techniques.
+
+**Tools:** Kali Linux, theHarvester, Shodan, VirusTotal, Whois, Have I Been Pwned, Google Dorks, MITRE ATT&CK
+
+**Focus:** OSINT reconnaissance, subdomain enumeration, IP/ASN analysis, breach exposure analysis, attack-surface assessment and MITRE ATT&CK mapping.
+
+[Read the full threat intelligence assessment](reports/threat-intelligence-assessment.md)
+
+## Core Cybersecurity Skills
+
+- SOC monitoring and investigation
+- SIEM: Splunk and Wazuh
+- Threat detection and alert triage
+- Threat intelligence and OSINT
+- Phishing and email analysis
+- IOC investigation and enrichment
+- Network security
+- Incident response
+- Log analysis and correlation
+- Risk assessment
+- MITRE ATT&CK
+- Security remediation planning
+
+## Portfolio Structure
+
+```text
+.
+├── README.md
+└── reports/
+    ├── phishing-forensic-investigation.md
+    └── threat-intelligence-assessment.md
+```
 
 ## Disclaimer
-This project was conducted in a controlled lab environment.
-All data has been sanitized.
 
+All projects are controlled or simulated cybersecurity portfolio exercises. Data has been sanitised or fictionalised where appropriate. No unauthorised systems were accessed.
+
+## About Me
+
+Sarah Asemota — Cybersecurity professional building practical experience across SOC operations, threat intelligence, incident response and security monitoring, with a background in high-pressure healthcare environments.
